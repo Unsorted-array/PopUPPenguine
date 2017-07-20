@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Images/a.ico">
+    <title>Penguings Of CB</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/video_page.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/custom.css">
+    <link rel="stylesheet " href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.css">
+    <script src="bootstrap-3.3.7-dist/js/jquery.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+
+</head>
+<body>
+
+
+
+        <div class="container-fluid">
+            <video autoplay loop muted poster="Images/team_pinguine_2.jpg" id="background" >
+                <source src="Videos/Penguins%20of%20Madagascar%20Movie%20CLIP%20-%20Antarctica%20(2014)%20-%20Benedict%20Cumberbatch%20Movie%20HD%20(online-video-cutter.com).mp4" type="video/mp4">
+            </video>
+            <div class="modal fade" id="malert" role="dialog">
+                <div class="modal-dialog">
+                    <!--Modal Content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title"> OOPS You Missed Something</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h2><span id="message"></span></h2>
+
+                        </div>
+                        <div class="modal-footer">
+                            <p >  Created By Unsorted_Array &copy  3/July/2017 No Rights Reserverd <i class="glyphicon-facetime-video"></i></p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-header"  align="center" id="header">
+                <h1 >  Save The Penguins !</h1>
+
+            </div>
+            <div class="row "align="center">
+                <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#How"> How to play </button>
+                <div class="modal fade" id="How">
+
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span>&times;</span>
+                                </button>
+                                <h3 class="modal-title"> How To Play <i class="fa fa-question-circle fa-2x"></i> </h3>
+
+                            </div>
+                            <div class="modal-bodyt" >
+                                <h3>You Know This</h3>
+                                <article style="font-size: large; margin: 10px ; font-family: 'Comic Sans MS'">In Antarctica, three young penguin brothers—Skipper, Kowalski, and Rico—defy the laws of nature to save an egg the other penguins believe to be doomed. After saving it from a pack of leopard seals and accidentally setting themselves adrift on an iceberg, the egg hatches into Private</article>
+                                <article style="font-size: large; margin: 10px;font-family:'Comic Sans MS' " >
+                                    Now the thing here is that you and your friend  have that egg which will finally Hatch into Private!
+
+                                    You come across a grid of pool(rather here clouds it's tough to find custom animations :p ).
+
+                                    Where every pool(cloud ) conatins either one of you ally or the monstrous Seals(yeti same old thing custom animations) !
+
+                                    Now private has to be saved , and seals wont back-off without eating !
+
+                                    So here is what is to be done choose one pool and click on it !
+
+
+                                    If it's your day you will find an ally !
+
+                                    But if it isn't you game ends there and than :p
+
+                                    But still kudos private is saved !
+
+                                    So are you ready to try your Luck !
+
+                                </article>
+                                <article style="font-family: 'Comic Sans MS';margin: 10px;font-size: x-large">
+                                    Simple Logic !
+                                    Click and  Reveal !
+                                </article>
+
+
+                            </div>
+
+                            <div class="modal-footer" style="border-top: solid black 2px">
+                                <span> &copy; Unsorted_Array No Rights Reserved !  3/7/2017</span>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="row form" align="center">
+
+                <div class="col-md-3 col-lg-3 col-xs-3 col-sm-3"  id="player1">
+                    <form class="form-group playerprofile">
+
+                        <h2> Player 1 </h2>
+
+                        <input  type="text" class="form-control" id="player1Name" style="height: 45px ;margin-top:5px" placeholder="Name ">
+                        <input type="number" class="   form-control " id="player1age" style="height: 45px ;margin-top:5px " placeholder="Age"><br>
+                        <input type="button" class="btn btn-success btn-lg" value="Save Me" id="save_me"> </input>
+
+
+                    </form>
+                </div>
+
+                <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6" align="center"  >
+
+
+                      <input type="button"  class="btn btn-success btn-block" value="LaunchGame" id="The_lauch_button"> </input>
+
+
+
+
+
+                </div>
+
+
+                <div class="col-md-3 col-lg-3 col-xs-3 col-sm-3" align="center"  id="player2">
+                    <form class="form-group  playerprofile ">
+
+                        <h2> Player 2 </h2>
+
+                        <input  type="text" class="form-control" id="player2Name"  style="height: 45px ;margin-top:5px" placeholder="Name ">
+                        <input type="number" class=" form-control " id="player2age" style="height: 45px ;margin-top:5px"  placeholder=" Age"><br>
+                        <input type="button" class=" btn btn-success btn-lg" value="Save Me" id="save_me2"> </input>
+
+
+                    </form>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <script src="logic2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*/background:  no-repeat;*/
+    /*background-size: cover;*/
+}
+
+#header h1
+{
+    border-bottom: none;
+    font-size: 76px;
+    color: white;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+.form{
+
+    margin-top: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px  20px 20px 10px;
+}
+.playerprofile{
+    height: 35px;
+    width:70%;
+
+    font-family: "Comic Sans MS";
+    color: white;
+}
+#The_lauch_button
+{
+    height: 80px;
+    max-width: 60%;
+    font-family: "Comic Sans MS";
+    font-size: 45px;
+    margin-top: 400px;
+    align-items: baseline;
+}

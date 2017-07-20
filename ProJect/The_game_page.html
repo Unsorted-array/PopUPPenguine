@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Images/a.ico">
+    <title>Penguings Of CB</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/game_page.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/custom.css">
+    <link rel="stylesheet " href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <script src="bootstrap-3.3.7-dist/js/jquery.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="logic.js"></script>
+
+</head>
+<body>
+
+
+
+
+
+                    <video autoplay loop  poster="Images/team_pinguine_2.jpg" id="background" >
+                        <source src="Videos/Free_Christmas_Motion_Background!!!!_Seaso___.mp4" type="video/mp4">
+                    </video>
+
+        <div class="container-fluid">
+            <div class="page-header" align="center" id="title">
+                <img src="penguin_pngs/penguin_title.png">
+                <!--trigger modal with buton-->
+                <div class="row">
+                <div class="col-sm-3 col-lg-3 col-md-3 col-xs-3">
+                <button type="button" class="btn btn-danger btn-lg " id="modalBtn"  data-toggle="modal" data-target="#mymodal">Options</button>
+
+                </div>
+                </div>
+                <!--modal-->
+                <div class="modal fade" id="mymodal" role="dialog">
+                    <div class="modal-dialog">
+                        <!--Modal Content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title"> Game Options </h3>
+                            </div>
+                            <div class="modal-body">
+                                <a style="text-decoration: none" href="Video_Page.html"><button type="button" class="btn btn-info btn-lg  btn-block" id="homeBtn" > Home</button></a><br>
+                                <a  style="text-decoration: none" href="The_game_page.html"><button type="button" class="btn btn-info btn-lg btn-block " id="restartBtn" > Restart</button></a>
+                            </div>
+                            <div class="modal-footer">
+                                <p >  Created By Unsorted_Array &copy  3/July/2017 No Rights Reserverd <i class="glyphicon-facetime-video"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row" >
+
+                <!--modal-->
+                <div class="modal fade" id="welcome" role="dialog">
+                    <div class="modal-dialog">
+                        <!--Modal Content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title"> Grettings ! Fellas</h3>
+                            </div>
+                            <div class="modal-body">
+                               <h2>  <span id="player1"> </span>
+                                and <span id="player2"></span></h2>
+                                <h2> Welcome to The Game</h2>
+                                <h2>The World is rough but this game ain't ! Keep your hands cleans ! Just a Game </h2>
+
+                            </div>
+                            <div class="modal-footer">
+                                <p >  Created By Unsorted_Array &copy  3/July/2017 No Rights Reserverd <i class="glyphicon-facetime-video"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="whoseturn" role="dialog">
+                    <div class="modal-dialog">
+                        <!--Modal Content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title"> Best Of Luck !</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h2> <span id="myturn"></span> it's your Turn </h2>
+
+                            </div>
+                            <div class="modal-footer">
+                                <p >  Created By Unsorted_Array &copy  3/July/2017 No Rights Reserverd <i class="glyphicon-facetime-video"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="lost" role="dialog">
+                    <div class="modal-dialog">
+                        <!--Modal Content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title"> You Were Eaten by Yeti ! !</h3>
+                            </div>
+                            <div class="modal-body">
+                                <h3> <span id="mlost"></span> You Lost </h3>
+                                <h2> Tough Luck</h2>
+                                <h2> P.S The World is Not over! </h2>
+                            </div>
+                            <div class="modal-footer">
+                                <p >  Created By Unsorted_Array &copy  3/July/2017 No Rights Reserverd <i class="glyphicon-facetime-video"></i></p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div  myid="11" id="11">
+
+                </div>
+                <div class="col-md-3 row1 " myid="12" id="12">
+
+                </div>
+                <div class="col-md-3 row1 " myid="13" id="13">
+
+                </div>
+                <div class=" col-md-3 row1 " myid="14" id="14">
+
+                </div>
+
+
+            </div>
+
+
+            <div class="row" >
+                <div class="col-md-3 row1" myid="21" id="21">
+
+                </div>
+                <div class="col-md-3 row1" myid="22" id="22">
+
+                </div>
+                <div class="col-md-3 row1" myid="23" id="23">
+
+                </div>
+                <div class="col-md-3 row1" myid="24" id="24">
+
+                </div>
+
+            </div>
+
+            <div class="row" >
+                <div class="col-md-3 row1" myid="31" id="31">
+
+                </div>
+                <div class="col-md-3 row1" myid="32" id="32">
+
+                </div>
+                <div class="col-md-3 row1" myid="33" id="33">
+
+                </div>
+                <div class="col-md-3 row1" myid="34" id="34">
+
+                </div>
+
+            </div>
+
+
+            <div class="row" >
+                <div class="col-md-3 row1" myid="41" id="41">
+
+                </div>
+                <div class="col-md-3 row1" myid="42" id="42">
+
+                </div>
+                <div class="col-md-3 row1" myid="43" id="43">
+
+                </div>
+                <div class="col-md-3 row1" myid="44" id="44">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+</body>
+</html>

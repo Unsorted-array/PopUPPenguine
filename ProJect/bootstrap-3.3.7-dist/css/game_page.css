@@ -1,0 +1,67 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*/background:  no-repeat;*/
+    /*background-size: cover;*/
+}
+.row1{
+
+    width: 200px;
+    height: 200px;
+    background-image: url("../../penguin_pngs/mound_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.row1:hover{
+
+
+    background-position: left;
+    background-image: url("../../penguin_pngs/mound_1_hover.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.penguin
+{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: left;
+   background-image: url("../../penguin_pngs/penguin_1.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+.yeti{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: left;
+    background-image: url("../../penguin_pngs/yeti.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
